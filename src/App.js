@@ -1,5 +1,6 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import React, { useCallback } from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -11,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
+import Experience from './components/Experience';
 
 function App() {
   const particlesInit = useCallback(main => {
@@ -26,6 +28,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Services/>
+      <Experience/>
 
     </>
   );

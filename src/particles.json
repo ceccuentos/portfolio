@@ -45,5 +45,10 @@
       "value": 4
     }
   },
-  "detectRetina": true
+  "detectRetina": true,
+  "background": {
+    "position": "absolute",
+    "repeat": "no-repeat",
+    "size": "cover"
+}
 }

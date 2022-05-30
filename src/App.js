@@ -9,16 +9,18 @@ import particlesOptions from "./particles.json";
 
 import Navbar from "./components/Navbar";
 import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 
 function App() {
-  const particlesInit = useCallback(main => {
-    loadFull(main);
-  }, [])
+  // const particlesInit = useCallback(main => {
+  //   loadFull(main);
+  // }, [])
   return (
     <>
-      <Particles className="particles-canvas" options={particlesOptions} init={particlesInit}/>
+      {/* <Particles className="particles-canvas" options={particlesOptions} init={particlesInit}/> */}
       <Navbar/>
       <Header/>
+      <AboutMe/>
     </>
   );
 }

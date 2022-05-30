@@ -1,23 +1,23 @@
-//import React from "react"
+import React from "react"
 import Typed from "react-typed";
 
-import React, { useCallback } from 'react';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+// import React, { useCallback } from 'react';
+// import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
 
-import particlesOptions from "../particles.json";
+//import particlesOptions from "../particles.json";
 
 const Header = () => {
-  const particlesInit = useCallback(main => {
-    loadFull(main);
-  }, [])
+  // const particlesInit = useCallback(main => {
+  //   loadFull(main);
+  // }, [])
   return (
     <> 
-        <Particles 
+        {/* <Particles 
           className="particles-canvas" 
-          height= "960"
-          position= "absolute"
-          options={particlesOptions} init={particlesInit}/>
+
+          options={particlesOptions} init={particlesInit}/> */}
+
         <div className="header-wraper">
         <div className="main-info">
         

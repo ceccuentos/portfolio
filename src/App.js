@@ -7,7 +7,6 @@ import { loadFull } from "tsparticles";
 
 import particlesOptions from "./particles.json";
 
-
 import Navbar from "./components/Navbar";
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';

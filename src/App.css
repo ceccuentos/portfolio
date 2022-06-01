@@ -97,6 +97,19 @@ nav ul li{
   text-transform: uppercase;
 
 }
+
+#media {
+  display: none;
+}
+
+@media(max-width: 768px)  {
+  #web{
+    display: none;
+  }
+  #media{
+    display: block;
+  }
+}
 /******************* Typed Text ******************/
 .typed-text{
   font-size: 1.8rem;

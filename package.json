@@ -23,18 +23,19 @@
     "react-share": "^4.4.0",
     "react-tsparticles": "^2.0.6",
     "react-typed": "^1.2.0",
+    "sass": "^1.52.1",
     "tslib": "^2.4.0",
     "tsparticles": "^2.0.6",
     "tsparticles-engine": "^2.0.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

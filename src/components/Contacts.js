@@ -41,7 +41,7 @@ const Contacts = () => {
     }
 
     return (  
-    <div className="contacts">
+    <div className="contacts" id="contacts">
         <div className="text-center">
             <h1>contacto</h1>  
             <p>Por favor llene el formulario con sus datos, lo contactaré lo antes posible.</p>
@@ -61,12 +61,11 @@ const Contacts = () => {
                     name="name"
                     {...register("name", { 
                         required: true,
-                        maxLength: 40,
-                        pattern: /^[A-Za-z]+$/i
+
                     })}
                     />
                     <div className="line"></div>
-                    {errors.name && <span className="error-message">Nombre es requerido máx 40 carácteres</span>}
+                    {errors.name && <span className="error-message">Nombre es requerido carácteres</span>}
                 </div>
 
                 {/* Telefono input */}

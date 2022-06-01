@@ -59,7 +59,7 @@ nav ul li{
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -161,6 +161,7 @@ nav ul li{
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+  text-align: center;
 }
 
 @media(max-width: 468px) {
@@ -177,7 +178,7 @@ nav ul li{
 }
 
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
 }
 
@@ -417,3 +418,27 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+

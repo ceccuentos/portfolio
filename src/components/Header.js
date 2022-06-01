@@ -1,24 +1,11 @@
 import React from "react"
 import Typed from "react-typed";
-
-// import React, { useCallback } from 'react';
-// import Particles from "react-tsparticles";
-// import { loadFull } from "tsparticles";
-
-//import particlesOptions from "../particles.json";
+import {Link} from 'react-scroll';
 
 const Header = () => {
-  // const particlesInit = useCallback(main => {
-  //   loadFull(main);
-  // }, [])
   return (
     <> 
-        {/* <Particles 
-          className="particles-canvas" 
-
-          options={particlesOptions} init={particlesInit}/> */}
-
-        <div className="header-wraper">
+        <div className="header-wraper" id="header">
         <div className="main-info">
         
             <h1>Project Manager & Web Development</h1>
@@ -29,7 +16,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
             />
-            <a href="#" className="btn-main-offer"> Contáctame</a>
+            <Link offset={-100} smooth={true} to="contacts" href="#" className="btn-main-offer"> Contáctame</Link>
         </div>
 
     </div>

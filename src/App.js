@@ -14,7 +14,6 @@ import Services from './components/Services';
 import Experience from './components/Experience';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
-import Experience2 from './components/Experience2';
 
 
 function App() {

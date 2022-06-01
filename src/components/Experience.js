@@ -38,7 +38,7 @@ const Experience = () => {
           <div className='marker'></div>
           <div className='timeline-content'>
             <h3 className='h3left'>2015</h3>
-            <p>Proyecto ERP en Banco Estado Microempresas (BEME), implementado módulos de gestión presupuestaria además de la integración vía API con distintas platadormas del banco. </p>
+            <p>Proyecto ERP en Banco Estado Microempresas (BEME), implementado módulos de gestión presupuestaria además de la integración vía API con distintas plataformas del banco. </p>
            
           </div>
         </div>

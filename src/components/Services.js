@@ -15,7 +15,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/>
                             </div>
                             <h3>Web Developer</h3>    
-                            <p>Siempre con el foco en los resultados</p>
+                            <p>¡Siempre con el foco en los resultados!</p>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faHandshake} size="2x"/>
                             </div>
                             <h3>Project Manager</h3>
-                            <p> Liderazgo positivo de proyectos generando valor de forma continua </p>
+                            <p> Liderazgo positivo de proyectos generando valor de forma continua. </p>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faUserCircle} size="2x"/>
                             </div>
                             <h3>ERP Manager</h3>  
-                            <p>Dirección y gestión de proyectos ERP destacando resultados inmediatos</p>  
+                            <p>Dirección y gestión de proyectos ERP destacando resultados inmediatos.</p>  
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ const Services = () => {
                                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/>
                             </div>
                             <h3>CiberSeguridad</h3>  
-                            <p>Mejores prácticas para prevenir incidentes de seguridad <br /> Estándares ISO 27000 & NERC-CIP  </p>  
+                            <p>Mejores prácticas para prevenir incidentes de seguridad de la información <br /> Estándares ISO 27000 & NERC-CIP  </p>  
                         </div>
                     </div>
 
